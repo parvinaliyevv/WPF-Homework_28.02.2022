@@ -1,0 +1,25 @@
+﻿<Window x:Class="Homework.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Homework"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+
+    <StackPanel Orientation="Vertical" Margin="30, 5, 50, 30">
+        <StackPanel Orientation="Horizontal" Margin="20, 20, 20, 20" Width="627" Height="141">
+            <Button Background="Aqua" FontFamily="Calibri" FontSize="20" Height = "80" Width = "150" Margin = "30" Content = "1" GotMouseCapture="Button_GotMouseCapture" MouseDown="Button_MouseDown"/>
+            <Button Background="Chocolate" FontFamily="Calibri" FontSize="20" Height = "80" Width = "150" Margin = "30" Content = "2" GotMouseCapture="Button_GotMouseCapture" MouseDown="Button_MouseDown"/>
+            <Button Background="DarkBlue" FontFamily="Calibri" FontSize="20" Height = "80" Width = "150" Margin = "30" Content = "3" GotMouseCapture="Button_GotMouseCapture" MouseDown="Button_MouseDown"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="20, 20, 20, 20" Width="627">
+            <Button Background="DarkGreen" FontFamily="Calibri" FontSize="20" Height = "80" Width = "150" Margin = "30" Content = "4" GotMouseCapture="Button_GotMouseCapture" MouseDown="Button_MouseDown"/>
+            <Button Background="Red" FontFamily="Calibri" FontSize="20" Height = "80" Width = "150" Margin = "30" Content = "5" GotMouseCapture="Button_GotMouseCapture" MouseDown="Button_MouseDown"/>
+            <Button Background="Orange" FontFamily="Calibri" FontSize="20" Height = "80" Width = "150" Margin = "30" Content = "6" GotMouseCapture="Button_GotMouseCapture" MouseDown="Button_MouseDown"/>
+        </StackPanel>
+    </StackPanel>
+    
+</Window>
